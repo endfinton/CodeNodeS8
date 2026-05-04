@@ -2,6 +2,7 @@
 const nextConfig = {
   basePath: '/portfolio',
   trailingSlash: true,
+  skipTrailingSlashRedirect: true,
   images: {
     unoptimized: true,
   },
